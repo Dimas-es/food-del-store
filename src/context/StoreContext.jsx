@@ -5,7 +5,7 @@ export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
   const [cartItems, setCartItems] = useState({});
-  const url = "http://localhost:4000";
+  const url = "https://food-del-backend-omega.vercel.app"; // Ganti dengan URL backend kamu
   const [token, setToken] = useState("");
   const [food_list, setFoodList] = useState([]);
 
@@ -40,7 +40,6 @@ const StoreContextProvider = (props) => {
     for (const item in cartItems) {
       if (cartItems[item] > 0) {
         let itemInfo = food_list.find((product) => product._id === item);
-        // Tambahkan pengecekan apakah itemInfo ada sebelum mengakses harga
         if (itemInfo && itemInfo.price) {
           totalAmount += itemInfo.price * cartItems[item];
         }
