@@ -6,8 +6,8 @@ const ExploreMenu = ({category,setCategory}) => {
 
   return (
     <div className='explore-menu' id='explore-menu'>
-        <h1>Explore our menu</h1>
-        <p className='explore-menu-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem delectus ea natus nesciunt doloremque non dicta explicabo, aspernatur ut adipisci sequi recusandae eum iure saepe veniam, optio autem consectetur neque.</p>
+        <h1>Jelajahi Menu Kami</h1>
+          <p className='explore-menu-text'>Nikmati berbagai pilihan seblak dan baso aci dengan beragam kategori yang menggugah selera. Temukan menu favoritmu dan rasakan sensasi cita rasa khas yang tak terlupakan!</p>
         <div className="explore-menu-list">
             {menu_list.map((item,index)=>{
                 return (
