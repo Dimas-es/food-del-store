@@ -7,8 +7,10 @@ const Footer = () => {
     <div className="footer" id="footer">
       <div className="footer-content">
         <div className="footer-content-left">
-            <img src={assets.logo} alt="" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam a debitis cupiditate mollitia sint eos id deserunt. Ipsum nihil repudiandae exercitationem, sit incidunt ipsam doloremque id alias temporibus magnam facilis.</p>
+          <p>Kameumeut.</p>
+          <h4>Kameumeut Web Store</h4>
+            {/* <img src={assets.logo} alt="" /> */}
+            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam a debitis cupiditate mollitia sint eos id deserunt. Ipsum nihil repudiandae exercitationem, sit incidunt ipsam doloremque id alias temporibus magnam facilis.</p> */}
             <div className="footer-social-icons">
                 <img src={assets.facebook_icon} alt="" />
                 <img src={assets.twitter_icon} alt="" />
@@ -18,8 +20,8 @@ const Footer = () => {
         <div className="footer-content-center">
             <h2>COMPANY</h2>
             <ul>
-                <li>Home</li>
-                <li>About us</li>
+                <li>Beranda</li>
+                <li>Tentang Kami</li>
                 <li>Delivery</li>
                 <li>Privasy policy</li>
             </ul>
@@ -28,7 +30,7 @@ const Footer = () => {
             <h2>GET IN TOUCH</h2>
             <ul>
                 <li>+62-882-0029-91380</li>
-                <li>contact@tomato.com</li>
+                <li>kameumeut@gmail.com</li>
             </ul>
         </div>
       </div>

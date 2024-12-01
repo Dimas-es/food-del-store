@@ -17,6 +17,12 @@
     gap: 80px;
 }
 
+.footer-content-left p{
+     font-size: 38px;
+    color: tomato;
+    font-weight: 700;
+}
+
 .footer-content-left , .footer-content-right , .footer-content-center{
     display: flex;
     flex-direction: column;
